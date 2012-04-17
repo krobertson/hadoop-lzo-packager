@@ -1,4 +1,4 @@
-@PACKAGE_NAME@ (0.0-unbuilt) UNRELEASED; urgency=low
+@PACKAGE_NAME@ (0.0-unbuilt) lucid; urgency=low
 
   * Initial release
 
