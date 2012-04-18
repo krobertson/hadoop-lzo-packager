@@ -188,7 +188,7 @@ setup_github() {
     GIT_HASH=${GIT_HASH//-/.} # RPM does not support dashes in version numbers
     echo "Git hash: $GIT_HASH"
     NAME=${NAME:-$GITHUB_ACCOUNT-hadoop-lzo}
-    VERSION=$(date +"%Y%m%d%H%M%S").$GIT_HASH
+    VERSION=$GIT_HASH
 
     pushd $BINDIR/build/ > /dev/null
     mkdir $NAME-$VERSION/
